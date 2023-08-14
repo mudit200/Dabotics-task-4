@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #08a8d4;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+    position: sticky;
+    width: 100%;
+    
+  }
+  
+  .logo img {
+    height: 140px;
+    width: auto;
+    font-size: 60px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin-left: 800px;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1;
+   
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .content{
+    margin-top: -10px;
+  }
+  .image-with-text{
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 800px;
+    background-image: url(https://www.yondu.com/wp-content/uploads/2022/08/OPT-2-medium-shot-man-wearing-vr-glasses-scaled.jpg);
+    background-size: cover;
+    
+  }
+  
+  .image-with-text p {
+    margin-top: 10px; /* Add some spacing between the image and the text */
+    font-size: 50px;
+    color: #333;
+    color: white;
+    padding-top: 170px;
+    padding-left: 50px;
+    
+
+    /* justify-content: center; */
+
+  }
+  button{
+    margin-left: 50px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(56, 130, 243);
+    
+    color: hsl(0, 0%, 100%);
+  }
+  button:hover{
+    background-color: rgb(15, 102, 234);
+  }
+  .service{
+    background: #efefef;
+    margin-top: -23px;
+    padding-top: 20px;
+    height: 900px;
+  }
+  hr{
+    background: #0ceeee;
+    height: 2px;
+    border:0 ;
+    margin: 15px auto;
+    width: 10%;
+
+}
+
+  .service-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .service-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 10px 20px 3px rgb(160, 140, 140);
+    
+    transition: transform .5s;
+    
+  }
+  .service-card h3{
+    color: blue;
+
+  }
+  
+  .service-card p{
+    text-align: center;
+  }
+  .service-card:hover{
+    transform: translateY(-7px);
+    
+    
+  }
+  .service-card h3:hover{
+    color: rgb(0, 217, 255)
+  }
+ 
+  /* .service-card h3 {
+    margin-top: 0;
+  } */
+  
+  .service-card p {
+    color: #555;
+    /* letter-spacing: 3px; */
+  }
+  .questions{
+    background: #efefef;
+    margin-top: -23px;
+    min-height: 600px;
+    padding-top: 100px;
+  }
+  .faq-container {
+ 
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+    width: 900px;
+   
+  }
+  
+  .question {
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+  }
+
+  
+  .answer {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  /* Make sure to put this rule after the original one */
+.answer.show {
+  display: block; /* or any appropriate display value */
+}
+.contact{
+  margin-top: 25px;
+}
+
+.con{
+  display: flex;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 340px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 10px 20px 3px rgb(160, 140, 140);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container1{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px rgb(160, 140, 140);
+  
+}
+label{
+  font-size: 30px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
+.client{
+  background: #efefef;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  margin-top: 120px;
+}
+.Clients{
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 30px; */
+
+}
+h1{
+  color: blue;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+.ic{
+  display: flex;
+  justify-content: space-around;
+}
+.con1{
+  background-color: #08a8d4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  
+}
+.contents{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 40px;
+}
+
+
+  
+  
+  
+  
+ 
